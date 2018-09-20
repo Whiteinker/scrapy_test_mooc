@@ -11,4 +11,12 @@ import scrapy
 class DoubanItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
-    pass
+    serial_num = scrapy.Field()
+    movie_name = scrapy.Field()
+    #介绍
+    introduce = scrapy.Field()
+    #星级
+    star = scrapy.Field()
+    #评论数
+    evaluate = scrapy.Field()
+    describe = scrapy.Field()
